@@ -1,0 +1,97 @@
+div.gallery {
+    background:#17141d ;
+    border-radius:10px;
+    color: white; 
+    box-shadow: -1rem 0 3rem #000;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+
+  div.gallery:hover .desc {
+    background:linear-gradient(90deg, #ff8a00, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius:10px;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family:poppins;
+    text-align: center;
+  }
+  
+  .responsive {
+    margin-top: 20px;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media screen and (min-width: 1080px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+
+  
+  @media screen and (min-width: 320px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .bg{
+    background: rgb(15, 14, 12);
+  }
+
+  body{
+    margin:0px;
+    background-image: radial-gradient( #ff8a00, #f55f20);
+  }
+
+  h1{
+    text-shadow: #000 3px;
+  }
+
+  .button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    width:150px;
+    height:40px;
+    background:#17141d ;
+    color: white;
+  }
+
+  .button a{
+    color:white;
+    text-decoration:none;
+  }
+
+  .button a:hover{
+  color:#ff8a00;
+  }

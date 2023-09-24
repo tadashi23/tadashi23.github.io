@@ -1,0 +1,140 @@
+.bgkeuntungan{
+  background: #FF8514;
+  width:1355px;
+  height:655px;
+  left:0px;
+  top:0px;
+  position:absolute;
+  }
+  
+.withus{
+  margin-top: 38px;
+  font-family:poppins;
+  font-weight:800;
+  font-size:55px;
+  }
+  
+.withus2{
+    font-family:poppins;
+    font-weight:400;
+    font-size:30px;
+  }
+  
+.sdkotak1{
+    background:#FF8514;
+    width:200px;
+    height:240px;
+    border:5px solid black;
+    left:220px;
+    top:280px;
+    position:absolute;
+  }
+  
+.sdkotak2{
+    background:#FF8514;
+    border:5px solid black;
+    width:200px;
+    height:240px;
+    left:630px;
+    top:280px;
+    position:absolute;
+  }
+  
+.sdkotak3{
+    background:#FF8514;
+    border:5px solid black;
+    width:200px;
+    height:240px;
+    left:1020px;
+    top:280px;
+    position:absolute;
+  }
+  
+  .kotak1{
+    background:#FF8514;
+    width:200px;
+    height:240px;
+    border:5px solid black;
+    left:180px;
+    top:240px;
+    position:absolute;
+  }
+  
+.kotak2{
+    background:#FF8514;
+    border:5px solid black;
+    width:200px;
+    height:240px;
+    left:580px;
+    top:240px;
+    position:absolute;
+  }
+  
+  .kotak3{
+    background:#FF8514;
+    border:5px solid black;
+    width:200px;
+    height:240px;
+    left:982px;
+    top:240px;
+    position:absolute;
+  }
+  
+.gambar1{
+    width:150px;
+    height:150px;
+    top:260px;
+    left:208px;
+    position: absolute;
+    background:url("../images/gambar1.png");
+  }
+  
+.gambar2{
+    width:150px;
+    height:150px;
+    top:260px;
+    left:610px;
+    position:absolute;
+    background:url("../images/gambar2.png");
+  }
+  
+.gambar3{
+    width:150px;
+    height:150px;
+    top:260px;
+    left:1010px;
+    position: absolute;
+    background:url("../images/gambar3.png");
+  }
+  
+.Penjelasan1{
+    left:206px;
+    top:420px;
+    font-family:Poppins;
+    font-size:12px;
+    font-weight:800;
+    color:black;
+    text-align:center;
+    position:absolute;
+  }
+  
+.Penjelasan2{
+    left:618px;
+    top:430px;
+    font-family:Poppins;
+    font-size:13px;
+    font-weight:800;
+    color:black;
+    position: absolute;
+  }
+  
+.Penjelasan3{
+    left:1038px;
+    top:420px;
+    font-family:Poppins;
+    font-size:12px;
+    font-weight:800;
+    color:black;
+    position: absolute;
+    text-align: center;
+  }

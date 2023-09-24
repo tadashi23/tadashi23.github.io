@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px ;
+}
+
+.background{
+    display: block;
+    margin-top: -85px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo_situbondo{
+  top: 80px;
+  left:605px;
+  position: absolute;
+}
+
+.explorin {
+  width: 486px;
+  color: white;
+  position: absolute;
+  top: 290px;
+  left: 445px;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 100px;
+  opacity: 1;
+  text-align: center;
+}
+
+.forumumkm{
+  width: 916px;
+  color:white;
+  position: absolute;
+  top: 420px;
+  left: 257px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 38px;
+  opacity: 1;
+  text-align: center;
+}
+.tombolstart{
+  width: 140px;
+  height: 60px;
+  background:white;
+  opacity: 1;
+  position: absolute;
+  top: 500px;
+  left: 605px;
+  border: 0px;
+  transition-duration: all 0.5s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.tombolstart a{
+  font-family:poppins;
+  font-size: 40px ;
+  font-weight: bolder;
+  text-decoration: none;
+  text-emphasis:none;
+  color: black;
+}
+
+
+.tombolstart:hover{
+  width: 140px;
+  height: 60px;
+  background-color: transparent;
+  border: 3px solid white;
+}
+
+.tombolstart a:hover{
+color:white;
+}

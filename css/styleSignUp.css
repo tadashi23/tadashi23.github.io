@@ -1,0 +1,74 @@
+/*Background Utama*/
+body {
+    background: url("../images/CoverUtama.png");
+    background-size: 100%;
+}
+
+img{
+    display: block;
+    margin-top: -85px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*form Daftar Akun*/
+.form{
+    background-color: orange;
+    max-width: 275px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-105px;
+    padding: 10px 30px 30px 30px;
+    font-family: poppins;
+    text-align: center;
+    background-position:center center;
+}
+
+/*form input*/
+.form input{
+    box-sizing: border-box;
+    background-color: white;
+    width: 65%;
+    padding: 7px;
+    border-radius: 7px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 12px;
+}
+
+/*form button*/
+.form button{
+    background-color: white;
+    border-color: none;
+    padding: 4px;
+    border-radius: 4px;
+    width: 35%;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight:600;
+}
+
+.masuk{
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.form button:hover{
+    color: white;
+    background-color:black ;
+    transition:all;
+    text-decoration:none;
+}
+
+@media screen and (min-width: 1080px) {
+.tes {
+    width: 49.99999%;
+    margin: 6px 0;
+    }
+}
+
+@media screen and (min-width: 320px) {
+.tes {
+    width: 100%;
+    }
+}

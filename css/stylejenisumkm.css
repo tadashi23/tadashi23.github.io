@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0.300;0,400;1,500&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f77307;
+    color: white;
+    text-decoration: none;
+    font-family: "DM Mono", monospace;
+}
+.card-list{
+    display: flex;
+    padding: 3rem;
+}
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+    top: 40px;
+    min-width: 250px;
+    padding: 3rem;
+    border-radius: 16px;
+    background: #17141d;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-1rem);
+}
+.card:hover ~ .card{
+    transform: translateX(130px);
+}
+.card:not(:first-child){
+    margin-left: -130px; 
+}
+.card-header h2:hover{
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Makanan{
+    width:320px;
+    height:180px;
+    top:200px;
+    border-radius:16px;
+    background: url("../images/makanan.png");
+    position: absolute;
+}
+.Makanan:hover{
+    border:3px solid #FF8514;
+}
+
+.Jasa{
+    width:320px;
+    height:180px;
+    top:200px;
+    border-radius:16px;
+    background: url("../images/jasa.png");
+    position: absolute;
+}
+.Jasa:hover{
+    border:3px solid #e52e71;
+}
+
+.Aksesoris{
+    width:320px;
+    height:180px;
+    top:200px;
+    border-radius:16px;
+    background: url("../images/aksesoris.png");
+    position: absolute;
+}
+.Aksesoris:hover{
+    border:3px solid #FF8514;
+}
+.Furniture{
+    width:320px;
+    height:180px;
+    top:200px;
+    border-radius:16px;
+    background: url("../images/furniture.png");
+    position: absolute;
+}
+.Furniture:hover{
+    border:3px solid #e52e71;
+}
+
+.card .card-header h2 a{
+    text-decoration: none;
+    color: white;
+}
